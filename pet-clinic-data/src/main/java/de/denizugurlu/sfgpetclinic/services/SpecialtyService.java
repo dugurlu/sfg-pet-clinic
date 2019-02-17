@@ -1,6 +1,6 @@
 package de.denizugurlu.sfgpetclinic.services;
 
-import de.denizugurlu.sfgpetclinic.model.Speciality;
+import de.denizugurlu.sfgpetclinic.model.Specialty;
 
-public interface SpecialtyService extends CrudService<Speciality, Long> {
+public interface SpecialtyService extends CrudService<Specialty, Long> {
 }
