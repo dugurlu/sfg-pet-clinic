@@ -41,3 +41,10 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
+
+      # run sonar cloud
+      - run: mvn sonar:sonar \
+          -Dsonar.projectKey=dugurlu_sfg-pet-clinic \
+          -Dsonar.organization=dugurlu-github \
+          -Dsonar.host.url=https://sonarcloud.io \
+          -Dsonar.login=aba54b95ed672df0749cf07e0082811ada7da60b
